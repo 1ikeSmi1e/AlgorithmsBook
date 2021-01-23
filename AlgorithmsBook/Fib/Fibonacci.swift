@@ -30,10 +30,15 @@ class Fibonacci: NSObject {
         var first = 0
         var second = 1
         for _ in 0 ..< (month-1) {
-            let sum =  first + second
-            first = second
-            second = sum
+            second =  first + second
+            first = second - first
         }
         return second
+    }
+    
+    
+    static func mathEquation(_ month: Int) -> NSInteger{
+        let c :Double = sqrt(5)
+        return (Int)((pow((1+c)/2, Double(month)) - pow((1-c)/2, Double(month)))/c)
     }
 }
