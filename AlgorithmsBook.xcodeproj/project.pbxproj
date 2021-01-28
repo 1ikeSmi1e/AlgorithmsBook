@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4E9C1A25C109C8004BD83A /* SingleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E9C1925C109C8004BD83A /* SingleLinkedList.swift */; };
 		3C9E228F25BA6BDA00FF06AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E228E25BA6BDA00FF06AF /* AppDelegate.swift */; };
 		3C9E229325BA6BDA00FF06AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E229225BA6BDA00FF06AF /* ViewController.swift */; };
 		3C9E229625BA6BDA00FF06AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9E229425BA6BDA00FF06AF /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C4E9C1925C109C8004BD83A /* SingleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLinkedList.swift; sourceTree = "<group>"; };
 		3C9E228B25BA6BDA00FF06AF /* AlgorithmsBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmsBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9E228E25BA6BDA00FF06AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C9E229225BA6BDA00FF06AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C4E9C1825C109A2004BD83A /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				3C4E9C1925C109C8004BD83A /* SingleLinkedList.swift */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
 		3C9E228225BA6BDA00FF06AF = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		3C9E228D25BA6BDA00FF06AF /* AlgorithmsBook */ = {
 			isa = PBXGroup;
 			children = (
+				3C4E9C1825C109A2004BD83A /* LinkedList */,
 				3C9E22A625BA752600FF06AF /* Fib */,
 				3C9E228E25BA6BDA00FF06AF /* AppDelegate.swift */,
 				3C9E229225BA6BDA00FF06AF /* ViewController.swift */,
@@ -147,6 +158,7 @@
 			files = (
 				3C9E229325BA6BDA00FF06AF /* ViewController.swift in Sources */,
 				3C9E228F25BA6BDA00FF06AF /* AppDelegate.swift in Sources */,
+				3C4E9C1A25C109C8004BD83A /* SingleLinkedList.swift in Sources */,
 				3C9E22A825BA756800FF06AF /* Fibonacci.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
