@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func btnClick(_ sender: UIButton) {
-        
+        SingleLinkedList.test()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
